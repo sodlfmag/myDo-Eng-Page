@@ -14,7 +14,7 @@ body {
 /* MyHeader.js */
 
 .MyHeader {
-  position: fixed;
+  /* position: fixed; */
   padding-top: 10px;
   padding-bottom: 10px;
   backdrop-filter: saturate(100%) blur(30px);
@@ -70,4 +70,10 @@ body {
   position: absolute;
   top: 0%;
   width: 100%;
+}
+
+/* BrandStoryPage.js */
+
+.PageSlide {
+  margin: 0 auto;
 }
