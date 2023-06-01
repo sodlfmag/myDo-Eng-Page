@@ -1,4 +1,6 @@
-import { useEffect } from "react";
+import { React, useEffect } from "react";
+import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 
 export const VisualizerPage = () => {
   // 비주얼라이즈 페이지는 배경을 흰색으로, 벗어나면 기본값으로 돌아감
@@ -20,6 +22,11 @@ export const VisualizerPage = () => {
           src={process.env.PUBLIC_URL + `/assets/videos/NeonMotionx3.mp4`}
         />
       </>
+      <Link to="/main" style={{ textDecoration: "none" }}>
+        <Button variant="contained" color="primary">
+          Go To Main
+        </Button>
+      </Link>
       <>
         <video
           className="TypoMotion"
