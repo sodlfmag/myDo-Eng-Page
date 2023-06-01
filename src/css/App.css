@@ -16,7 +16,7 @@ body {
 .MyHeader {
   padding-top: 10px;
   padding-bottom: 10px;
-  backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(100%) blur(30px);
 }
 
 .HeaderLogo {
@@ -52,4 +52,21 @@ body {
 
 .TypoMotion {
   width: 50%;
+}
+
+/* MainPage.js */
+.MainBackground {
+  height: 100vh;
+}
+
+.MainpageContainer {
+  /* width: 100vw; */
+  /* overflow: hidden; */
+  margin: 0px auto;
+  position: relative;
+}
+.MainHeader {
+  position: absolute;
+  top: 0%;
+  width: 100%;
 }
