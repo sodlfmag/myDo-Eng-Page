@@ -1,7 +1,44 @@
+/* font -------------------------------*/
+/* Marcellus*/
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
 body {
   background-color: green;
 }
 
+/* App.js */
+.App {
+  font-family: "Marcellus", serif;
+}
+
+/* MyHeader.js */
+
+.MyHeader {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.HeaderLogo {
+  margin-left: 30%;
+  width: 7vw;
+}
+
+.HeaderContainer {
+  text-align: left;
+  align-items: center;
+  display: flex;
+}
+
+.LinkContainer {
+  margin-left: 5%;
+}
+.HeaderLink {
+  text-decoration: none;
+  color: white;
+  margin-left: 10%;
+  font-size: 1.2vw;
+}
 /* Visualize.js */
 
 .VisualizerContainer {
