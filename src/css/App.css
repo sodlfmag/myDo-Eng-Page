@@ -1,3 +1,18 @@
 body {
   background-color: green;
 }
+
+/* Visualize.js */
+
+.VisualizerContainer {
+  place-items: center;
+  display: grid;
+}
+
+.NeonMotion {
+  width: 50%;
+}
+
+.TypoMotion {
+  width: 50%;
+}
