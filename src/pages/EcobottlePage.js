@@ -1,4 +1,4 @@
-import { MyHeader } from "../components/MyHeader";
+import { PageHeader } from "../components/PageHeader";
 
 export const EcobottlePage = () => {
   return (
@@ -12,7 +12,7 @@ export const EcobottlePage = () => {
         src={process.env.PUBLIC_URL + `/assets/images/EcoBottle_2.svg`}
       />
       <div className="MainHeader">
-        <MyHeader />
+        <PageHeader name="ECOBOTTLE" />
       </div>
     </div>
   );

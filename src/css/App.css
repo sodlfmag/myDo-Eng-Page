@@ -45,8 +45,8 @@ body {
 
 /* PageHeader.js */
 .HeaderName {
-  justify-content: center;
-  text-align: center;
+  margin-left: 37%;
+  font-size: 1.5vw;
 }
 
 /* Visualize.js */

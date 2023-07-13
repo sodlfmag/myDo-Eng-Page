@@ -1,4 +1,6 @@
+import { MyFooter } from "../components/MyFooter";
 import { MyHeader } from "../components/MyHeader";
+import { PageHeader } from "../components/PageHeader";
 
 export const BrandStoryPage = () => {
   return (
@@ -12,8 +14,9 @@ export const BrandStoryPage = () => {
         src={process.env.PUBLIC_URL + `/assets/images/Brand-Story_2.svg`}
       />
       <div className="MainHeader">
-        <MyHeader />
+        <PageHeader name="BRAND STORY" />
       </div>
+      <MyFooter />
     </div>
   );
 };
