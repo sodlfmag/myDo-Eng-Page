@@ -1,7 +1,8 @@
 /* font -------------------------------*/
 /* Marcellus*/
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
-
+/* Karla*/
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
 body {
   background-color: green;
 }
@@ -29,6 +30,7 @@ body {
   text-align: left;
   align-items: center;
   display: flex;
+  /* justify-content: center; */
 }
 
 .LinkContainer {
@@ -40,6 +42,13 @@ body {
   margin-left: 10%;
   font-size: 1.2vw;
 }
+
+/* PageHeader.js */
+.HeaderName {
+  justify-content: center;
+  text-align: center;
+}
+
 /* Visualize.js */
 
 .VisualizerContainer {
@@ -76,4 +85,25 @@ body {
 
 .PageSlide {
   margin: 0 auto;
+  height: 100vh;
+}
+
+/* MyFooter.js*/
+.FooterLine {
+  display: flex;
+  font-family: "Karla", sans-serif;
+  margin-left: 2%;
+  margin-bottom: -25px;
+}
+.FooterTitle {
+  color: #a3a4a6;
+}
+.FooterBorder {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 150;
+  margin-bottom: 50;
+  height: 0.8px;
+  color: #eeeeee;
+  background: "#EEEEEE";
 }
