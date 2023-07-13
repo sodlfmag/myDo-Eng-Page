@@ -2,7 +2,20 @@ export const MyFooter = () => {
   return (
     <div className="MyFooter">
       <hr className="FooterBorder" />
-      <img src={process.env.PUBLIC_URL + `/assets/images/Black_Logo.svg`} />
+      <div className="FooterImageLine">
+        <img
+          src={process.env.PUBLIC_URL + `/assets/images/Black_Logo.svg`}
+          style={{ marginLeft: "2%" }}
+        />
+        <img
+          src={process.env.PUBLIC_URL + `/assets/images/Instagram_Icon.svg`}
+          style={{ marginLeft: "60%" }}
+        />
+        <img
+          src={process.env.PUBLIC_URL + `/assets/images/Facebook_Icon.svg`}
+          style={{ marginLeft: "1%" }}
+        />
+      </div>
       <div>
         <div className="FooterLine">
           <p className="FooterTitle">Company&nbsp;</p>
@@ -28,6 +41,6 @@ export const MyFooter = () => {
           <p className="FooterTitle">Email&nbsp; </p> <p>mydohw36@naver.com</p>
         </div>
       </div>
-    </div> 
+    </div>
   );
 };
