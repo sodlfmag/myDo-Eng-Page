@@ -6,6 +6,7 @@ import { MainPage } from "./pages/MainPage";
 import { BrandStoryPage } from "./pages/BrandStoryPage";
 import { EcobottlePage } from "./pages/EcobottlePage";
 import { ContactPage } from "./pages/ContactPage";
+import { ScrollTestPage } from "./pages/ScrollTestPage";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           <Route path="/main" element={<MainPage />} />
           <Route path="/brand" element={<BrandStoryPage />} />
           <Route path="/ecobottle" element={<EcobottlePage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          {/* <Route path="/contact" element={<ContactPage />} /> */}
+          <Route path="/contact" element={<ScrollTestPage />} />
         </Routes>
       </div>
     </BrowserRouter>
