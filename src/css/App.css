@@ -69,7 +69,8 @@ body {
 
 /* MainPage.js */
 .MainBackground {
-  height: 100vh;
+  position: absolute;
+  width: 100vw;
 }
 
 .MainpageContainer {
