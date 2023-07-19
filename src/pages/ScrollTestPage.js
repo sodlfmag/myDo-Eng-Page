@@ -2,6 +2,7 @@ import { PageHeader } from "../components/PageHeader";
 import { useState, useEffect, useRef } from "react";
 import Dots from "../components/Dots";
 import { MyHeader } from "../components/MyHeader";
+import { MyFooter } from "../components/MyFooter";
 
 const DIVIDER_HEIGHT = 5;
 
@@ -123,12 +124,17 @@ export const ScrollTestPage = () => {
         className="inner bg-pink"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "/assets/images/BS_bg1.svg"
+            process.env.PUBLIC_URL + "/assets/images/BS_bg3.svg"
           })`,
+          backgroundSize: "cover",
         }}
       >
-        3
+        <img
+          className="PageSlide"
+          src={process.env.PUBLIC_URL + `/assets/images/BS_ct3.svg`}
+        />
       </div>
+      <MyFooter />
     </div>
   );
 };
