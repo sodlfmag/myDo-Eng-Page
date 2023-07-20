@@ -4,14 +4,17 @@ export const MyFooter = () => {
       <hr className="FooterBorder" />
       <div className="FooterImageLine">
         <img
+          className="FooterImage"
           src={process.env.PUBLIC_URL + `/assets/images/Black_Logo.svg`}
           style={{ marginLeft: "2%" }}
         />
         <img
+          className="FooterImage"
           src={process.env.PUBLIC_URL + `/assets/images/Instagram_Icon.svg`}
-          style={{ marginLeft: "60%" }}
+          style={{ marginLeft: "75%" }}
         />
         <img
+          className="FooterImage"
           src={process.env.PUBLIC_URL + `/assets/images/Facebook_Icon.svg`}
           style={{ marginLeft: "1%" }}
         />

@@ -48,7 +48,7 @@ body {
 
 /* PageHeader.js */
 .HeaderName {
-  margin-left: 37vw;
+  margin-left: 39vw;
   font-size: 1.5vw;
 }
 
@@ -96,8 +96,12 @@ body {
 .FooterLine {
   display: flex;
   font-family: "Karla", sans-serif;
+  font-size: 13px;
   margin-left: 2%;
   margin-bottom: -25px;
+}
+.FooterImage {
+  height: 40px;
 }
 .FooterTitle {
   color: #a3a4a6;
@@ -108,8 +112,8 @@ body {
   margin-top: 150;
   margin-bottom: 50;
   height: 0.8px;
-  color: #eeeeee;
-  background: "#EEEEEE";
+  color: #a3a4a6;
+  background: #a3a4a6;
 }
 
 /* ScrollTestPage.js */
@@ -148,4 +152,37 @@ body {
 }
 .PageSlide {
   height: 80vh;
+}
+
+/* Contact.js */
+.ContactPageContainer {
+  background-color: #ffffff;
+}
+.ContactPageTitle {
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+  text-align: center;
+  font-size: 7vh;
+  color: #00a8d6;
+}
+.ContactIndex {
+  margin-left: 23vw;
+  position: fixed;
+}
+.ContactRow {
+  margin-bottom: 15px;
+}
+.RequestInput {
+  margin-left: 30vw;
+  height: 4vh;
+  width: 40vw;
+}
+.RequestInput_Contents {
+  height: 30vh;
+  resize: none;
+  font-family: "Marcellus", serif;
+}
+.ContactRow {
+  display: flex;
+  align-items: center;
 }

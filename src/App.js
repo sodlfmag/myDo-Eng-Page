@@ -17,8 +17,8 @@ function App() {
           <Route path="/main" element={<MainPage />} />
           <Route path="/brand" element={<BrandStoryPage />} />
           <Route path="/ecobottle" element={<EcobottlePage />} />
-          {/* <Route path="/contact" element={<ContactPage />} /> */}
-          <Route path="/contact" element={<ScrollTestPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          {/* <Route path="/contact" element={<ScrollTestPage />} /> */}
         </Routes>
       </div>
     </BrowserRouter>
