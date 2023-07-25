@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const MyFooter = () => {
   return (
     <div className="MyFooter">
@@ -8,16 +10,20 @@ export const MyFooter = () => {
           src={process.env.PUBLIC_URL + `/assets/images/Black_Logo.svg`}
           style={{ marginLeft: "2%" }}
         />
-        <img
-          className="FooterImage"
-          src={process.env.PUBLIC_URL + `/assets/images/Instagram_Icon.svg`}
-          style={{ marginLeft: "75%" }}
-        />
-        <img
-          className="FooterImage"
-          src={process.env.PUBLIC_URL + `/assets/images/Facebook_Icon.svg`}
-          style={{ marginLeft: "1%" }}
-        />
+        <Link to="https://www.instagram.com/mydo_midas/">
+          <img
+            className="FooterImage"
+            src={process.env.PUBLIC_URL + `/assets/images/Instagram_Icon.svg`}
+            style={{ marginLeft: "75%" }}
+          />
+        </Link>
+        <Link to="https://www.facebook.com/MYDO.lab">
+          <img
+            className="FooterImage"
+            src={process.env.PUBLIC_URL + `/assets/images/Facebook_Icon.svg`}
+            style={{ marginLeft: "1%" }}
+          />
+        </Link>
       </div>
       <div>
         <div className="FooterLine">

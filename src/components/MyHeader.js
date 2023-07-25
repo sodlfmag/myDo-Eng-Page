@@ -17,7 +17,10 @@ export const MyHeader = () => {
           <Link className="HeaderLink" to="/ecobottle">
             ECOBOTTLE
           </Link>
-          <Link className="HeaderLink" to="/shop">
+          <Link
+            className="HeaderLink"
+            to="https://www.ebay.com/itm/265338363911"
+          >
             SHOP
           </Link>
           <Link className="HeaderLink" to="/contact">
