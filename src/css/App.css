@@ -159,7 +159,7 @@ body {
   background-color: #ffffff;
 }
 .ContactPageTitle {
-  padding-top: 15vh;
+  padding-top: 10vh;
   padding-bottom: 5vh;
   text-align: center;
   font-size: 7vh;
@@ -186,4 +186,8 @@ body {
 .ContactRow {
   display: flex;
   align-items: center;
+}
+.SubmitBtn {
+  margin-left: 66.4vw;
+  max-width: 4vw;
 }
