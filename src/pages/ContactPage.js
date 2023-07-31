@@ -32,15 +32,18 @@ export const ContactPage = () => {
         )
         .then(
           (result) => {
+            alert("Mail Send Complete.\nThank you to contact us!");
             console.log(result.text);
             // display success message to user
           },
           (error) => {
+            alert("Mail Send Failed.\nPlease try again.");
             console.log(error.text);
             // display error message to user
           }
         );
     } else {
+      alert("Mail Send Canceled.");
       console.log("Sending Canceled");
     }
   };
