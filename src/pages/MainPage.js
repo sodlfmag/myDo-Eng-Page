@@ -11,6 +11,10 @@ export const MainPage = () => {
       <div className="MainHeader">
         <MyHeader />
       </div>
+      <div className="MainTextContainer">
+        <p className="MainText_1">HYDROGEN</p>
+        <p className="MainText_2">ESSENCE</p>
+      </div>
     </div>
   );
 };
