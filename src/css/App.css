@@ -21,6 +21,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   backdrop-filter: saturate(100%) blur(30px);
+  z-index: 1;
 }
 
 .HeaderLogo {
@@ -106,8 +107,12 @@ body {
 /* BrandStoryPage.js */
 
 .PageSlide {
-  margin: 0 auto;
-  height: 100vh;
+  margin-top: 10vh;
+  height: 90vh;
+}
+
+.page {
+  text-align: center;
 }
 
 /* MyFooter.js*/
