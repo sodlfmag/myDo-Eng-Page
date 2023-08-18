@@ -36,31 +36,30 @@ export const MyHeader = () => {
 
           {/* 측면 슬라이딩 패널 */}
           <img
-            className="PannelToggle"
+            className="PanelToggle"
             onClick={() => setOpenPanel(true)}
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/Pannel/Pannel_Toggle_White.svg"
+              "/assets/images/Panel/Panel_Toggle_White.svg"
             }
           />
 
           <SlidingPanel type={"right"} isOpen={openPanel} size={100}>
-            <div style={{ backgroundColor: "white" }}>
-              <div style={{ height: "100vh" }}>
+            <div className="ad1">
+              <div>
                 <img
                   className="PanelBackgroundImg"
                   src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/Pannel/Pannel_Bg.svg"
+                    process.env.PUBLIC_URL + "/assets/images/Panel/Panel_Bg.svg"
                   }
                 />
               </div>
               <img
-                className="PannelToggle"
+                className="PanelToggle"
                 onClick={() => setOpenPanel(false)}
                 src={
                   process.env.PUBLIC_URL +
-                  "/assets/images/Pannel/Pannel_X_Black.svg"
+                  "/assets/images/Panel/Panel_X_Black.svg"
                 }
               />
               <Link className="PanelLink" to="/brand" style={{ top: "15vh" }}>
