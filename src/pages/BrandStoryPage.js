@@ -68,6 +68,7 @@ export const BrandStoryPage = () => {
         <div style={{ height: "20vh" }}>
           <MyFooter />
         </div>
+        {/* footer 단 상단고정되는 현상 없애기 */}
       </PageScroll>
     </>
   );
