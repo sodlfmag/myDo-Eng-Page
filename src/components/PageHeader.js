@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-
+import SlidingPanel from "react-sliding-side-panel";
 export const PageHeader = (props) => {
+  const [openPanel, setOpenPanel] = useState(false);
   return (
     <header className="MyHeader">
       <div className="HeaderContainer">
@@ -11,6 +13,35 @@ export const PageHeader = (props) => {
           />
         </NavLink>
         <div className="HeaderName">{props.name}</div>
+        {/* 측면 슬라이딩 패널 */}
+        <img
+          className="PannelToggle"
+          onClick={() => setOpenPanel(true)}
+          src={
+            process.env.PUBLIC_URL +
+            "/assets/images/Pannel/Pannel_Toggle_Black.svg"
+          }
+        />
+
+        <SlidingPanel type={"right"} isOpen={openPanel} size={100}>
+          <div style={{ backgroundColor: "white" }}>
+            <div style={{ height: "100vh" }}>
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/assets/images/Pannel/Pannel_Bg.svg"
+                }
+              />
+            </div>
+            <img
+              className="PannelToggle"
+              onClick={() => setOpenPanel(false)}
+              src={
+                process.env.PUBLIC_URL +
+                "/assets/images/Pannel/Pannel_X_Black.svg"
+              }
+            />
+          </div>
+        </SlidingPanel>
       </div>
     </header>
   );

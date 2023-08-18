@@ -46,6 +46,13 @@ body {
   margin-left: 10%;
   font-size: 1.2vw;
 }
+.PannelToggle {
+  cursor: pointer;
+  position: fixed;
+  bottom: 2vh;
+  right: 3vw;
+  top: 2vh;
+}
 
 /* PageHeader.js */
 .HeaderName {
