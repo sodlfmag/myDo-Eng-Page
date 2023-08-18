@@ -4,7 +4,7 @@
 /* Karla*/
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
 body {
-  background-color: green;
+  background-color: white;
 }
 
 /* App.js */
@@ -63,6 +63,11 @@ body {
   position: absolute;
   font-size: 6vh;
   text-decoration: none;
+}
+.PanelLink:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1vh;
+  text-decoration-color: #00d1ff;
 }
 
 /* PageHeader.js */
