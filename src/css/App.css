@@ -47,11 +47,13 @@ body {
   font-size: 1.2vw;
 }
 .PanelBackgroundImg {
+  width: 40vw;
   position: fixed;
 }
-.PannelToggle {
+.PanelToggle {
   cursor: pointer;
   position: fixed;
+  height: 7vh;
   bottom: 2vh;
   right: 3vw;
   top: 2vh;
@@ -69,7 +71,9 @@ body {
   text-decoration-thickness: 1vh;
   text-decoration-color: #00d1ff;
 }
-
+.panel-content {
+  background-color: white;
+}
 /* PageHeader.js */
 .HeaderName {
   margin-left: 39vw;
