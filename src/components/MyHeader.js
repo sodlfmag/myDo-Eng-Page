@@ -48,6 +48,7 @@ export const MyHeader = () => {
             <div style={{ backgroundColor: "white" }}>
               <div style={{ height: "100vh" }}>
                 <img
+                  className="PanelBackgroundImg"
                   src={
                     process.env.PUBLIC_URL +
                     "/assets/images/Pannel/Pannel_Bg.svg"

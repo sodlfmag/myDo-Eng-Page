@@ -53,6 +53,9 @@ body {
   right: 3vw;
   top: 2vh;
 }
+.PanelBackgroundImg {
+  position: fixed;
+}
 
 /* PageHeader.js */
 .HeaderName {
