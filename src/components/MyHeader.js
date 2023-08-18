@@ -63,6 +63,33 @@ export const MyHeader = () => {
                   "/assets/images/Pannel/Pannel_X_Black.svg"
                 }
               />
+              <Link className="PanelLink" to="/brand" style={{ top: "15vh" }}>
+                BRAND
+              </Link>
+              <Link
+                className="PanelLink"
+                to="/ecobottle"
+                style={{ top: "30vh" }}
+              >
+                ECOBOTTLE
+              </Link>
+              <Link
+                className="PanelLink"
+                to="https://www.ebay.com/itm/265338363911"
+                style={{ top: "45vh" }}
+              >
+                SHOP
+              </Link>
+              <Link className="PanelLink" to="/contact" style={{ top: "60vh" }}>
+                CONTACT
+              </Link>
+              <Link
+                className="PanelLink"
+                to="https://mydo.co.kr/"
+                style={{ top: "75vh" }}
+              >
+                KOREA
+              </Link>
             </div>
           </SlidingPanel>
         </div>
