@@ -23,7 +23,7 @@ export const VisualizerPage = () => {
         />
       </>
       <Link to="/main" style={{ textDecoration: "none" }}>
-        <Button variant="contained" color="primary">
+        <Button className="puff-in-center" variant="contained" color="primary">
           Go To Main
         </Button>
       </Link>
