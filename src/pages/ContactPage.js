@@ -123,14 +123,31 @@ export const ContactPage = () => {
         </div>
       </form>
 
-      <video
-        className="ContactMotionVideos"
+      {/* <video
         muted
-        autoplay
+        autoPlay
         loop
         src={
           process.env.PUBLIC_URL +
-          "/assets/videos/contact/ContactMotionsBg.webm"
+          `/assets/videos/contact/ContactMotionsBg.webm`
+        }
+      /> */}
+      <video
+        className="ContactMotionOrbit"
+        muted
+        autoPlay
+        loop
+        src={
+          process.env.PUBLIC_URL + `/assets/videos/contact/ContactOrbitBg.webm`
+        }
+      />
+      <video
+        className="ContactMotionCloud"
+        muted
+        autoPlay
+        loop
+        src={
+          process.env.PUBLIC_URL + `/assets/videos/contact/ContactCloudBg.webm`
         }
       />
       <MyFooter />

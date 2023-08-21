@@ -145,7 +145,10 @@ body {
 
 /* MyFooter.js*/
 .MyFooter {
-  position: relative;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+
   z-index: 2;
 }
 .FooterLine {
@@ -252,6 +255,19 @@ body {
 .ContactMotionVideos {
   top: 0;
   position: absolute;
-  width: 100vw;
-  z-index: 1;
+  width: 50vw;
+  z-index: 3;
+}
+
+.ContactMotionOrbit {
+  position: absolute;
+  height: 30vh;
+  bottom: 22vh;
+}
+
+.ContactMotionCloud {
+  position: absolute;
+  top: 5vh;
+  right: 0;
+  width: 25vw;
 }
