@@ -50,7 +50,6 @@ export const ContactPage = () => {
 
   return (
     <>
-    
       {/* <video className="ContactOrbit" autoPlay loop muted>
         <source
           src={process.env.PUBLIC_URL + `/assets/videos/ContactOrbit.webm`}
@@ -123,6 +122,17 @@ export const ContactPage = () => {
           </div>
         </div>
       </form>
+
+      <video
+        className="ContactMotionVideos"
+        muted
+        autoplay
+        loop
+        src={
+          process.env.PUBLIC_URL +
+          "/assets/videos/contact/ContactMotionsBg.webm"
+        }
+      />
       <MyFooter />
     </>
   );
