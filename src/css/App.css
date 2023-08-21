@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
 body {
   background-color: white;
+  overflow-x: hidden;
 }
 
 /* App.js */
@@ -108,6 +109,7 @@ body {
   margin: 0px auto;
   position: relative;
 }
+
 .MainHeader {
   position: absolute;
   top: 0%;
@@ -145,8 +147,9 @@ body {
 
 /* MyFooter.js*/
 .MyFooter {
-  position: absolute;
+  position: relative;
   width: 100vw;
+  margin-top: 10vh;
   bottom: 0;
 
   z-index: 2;
@@ -174,11 +177,11 @@ body {
   background: #a3a4a6;
 }
 
-/* ScrollTestPage.js */
+/* ScrollTestPage.js
 body {
   margin: 0;
   overflow-x: hidden;
-}
+} */
 
 .outer {
   height: 100vh;
@@ -228,7 +231,7 @@ body {
 }
 .ContactIndex {
   margin-left: 23vw;
-  position: fixed;
+  position: absolute;
 }
 .ContactRow {
   margin-bottom: 15px;
@@ -270,4 +273,26 @@ body {
   top: 5vh;
   right: 0;
   width: 25vw;
+}
+
+/* 스크롤바 커스텀 */
+
+/* 스크롤바의 폭 너비 */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(135, 221, 255); /* 스크롤바 색상 */
+  border-radius: 10px; /* 스크롤바 둥근 테두리 */
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(126, 201, 231);
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: rgb(109, 176, 202);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(220, 20, 60, 0.1); /*스크롤바 뒷 배경 색상*/
 }
