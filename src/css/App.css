@@ -21,7 +21,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   backdrop-filter: saturate(100%) blur(30px);
-  z-index: 2;
+  z-index: 3;
 }
 
 .HeaderLogo {
@@ -177,7 +177,7 @@ body {
 /* ScrollTestPage.js */
 body {
   margin: 0;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .outer {
