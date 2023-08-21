@@ -136,9 +136,13 @@ body {
 
 /* BrandStoryPage.js */
 
-.PageSlide {
+.BrandPageSlide {
   margin-top: 10vh;
   height: 90vh;
+}
+.BrandPageSlide2 {
+  margin-top: 10vh;
+  height: 80vh;
 }
 
 .page {
@@ -210,9 +214,6 @@ body {
 }
 
 .bg-pink {
-}
-.PageSlide {
-  height: 80vh;
 }
 
 /* Contact.js */

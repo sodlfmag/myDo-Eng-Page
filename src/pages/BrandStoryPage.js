@@ -21,7 +21,7 @@ export const BrandStoryPage = () => {
           }}
         >
           <img
-            className="PageSlide"
+            className="BrandPageSlide"
             src={
               process.env.PUBLIC_URL + `/assets/images/BrandStory/BS_ct1.svg`
             }
@@ -39,7 +39,7 @@ export const BrandStoryPage = () => {
           }}
         >
           <img
-            className="PageSlide"
+            className="BrandPageSlide"
             src={
               process.env.PUBLIC_URL + `/assets/images/BrandStory/BS_ct2.svg`
             }
@@ -58,7 +58,7 @@ export const BrandStoryPage = () => {
             }}
           >
             <img
-              className="PageSlide2"
+              className="BrandPageSlide2"
               src={
                 process.env.PUBLIC_URL + `/assets/images/BrandStory/BS_ct03.svg`
               }
