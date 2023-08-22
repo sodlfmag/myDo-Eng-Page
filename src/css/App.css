@@ -183,6 +183,16 @@ body {
   height: 80vh;
 }
 
+/* EcobottlePage.js */
+
+.EcoBottleSlide {
+  margin-top: 10vh;
+  height: 90vh;
+}
+.EcoBottleSlide2 {
+  margin-top: 15vh;
+  height: 80vh;
+}
 .page {
   text-align: center;
 }
@@ -217,41 +227,6 @@ body {
   height: 0.8px;
   color: #a3a4a6;
   background: #a3a4a6;
-}
-
-/* ScrollTestPage.js
-body {
-  margin: 0;
-  overflow-x: hidden;
-} */
-
-.outer {
-  height: 100vh;
-  overflow-y: auto;
-}
-
-/* 화면에서 스크롤바 안보이게 */
-.outer::-webkit-scrollbar {
-  display: none;
-}
-
-.inner {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 100px;
-}
-
-.bg-yellow {
-  background-image: "process.env.PUBLIC_URL + `/assets/images/EcoBottle_1.svg`";
-}
-
-.bg-blue {
-  background-color: #b6d8f2;
-}
-
-.bg-pink {
 }
 
 /* Contact.js */

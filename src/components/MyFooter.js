@@ -36,7 +36,7 @@ export const MyFooter = () => {
         <div className="FooterLine">
           <p className="FooterTitle">Business registration number&nbsp; </p>
           <p>107-13-52361</p>
-          <p>Check business information</p>
+          {/* <p>Check business information</p> */}
         </div>
         <div className="FooterLine">
           <p className="FooterTitle">Mail order business&nbsp; </p>
