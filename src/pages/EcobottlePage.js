@@ -14,6 +14,28 @@ export const EcobottlePage = () => {
           className="page"
           style={{
             backgroundImage: `url(${
+              process.env.PUBLIC_URL + "/assets/images/EcoBottle/EB_bg3.svg"
+            })`,
+            backgroundSize: "cover",
+            height: "100vh",
+          }}
+        >
+          <video
+            muted
+            autoPlay
+            loop
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/videos/EcoBottle/PumpingMotion.webm"
+            }
+            height={"100%"}
+          />
+        </div>
+        <div
+          id="page3"
+          className="page"
+          style={{
+            backgroundImage: `url(${
               process.env.PUBLIC_URL + "/assets/images/EcoBottle/EB_bg1.svg"
             })`,
             backgroundSize: "cover",
@@ -25,43 +47,23 @@ export const EcobottlePage = () => {
             src={process.env.PUBLIC_URL + `/assets/images/EcoBottle/EB_ct1.svg`}
           />
         </div>
-        <div
-          id="page2"
-          className="page"
-          style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "/assets/images/EcoBottle/EB_bg2.svg"
-            })`,
-            backgroundSize: "cover",
-            height: "100vh",
-          }}
-        >
-          <img
-            className="EcoBottleSlide2"
-            src={process.env.PUBLIC_URL + `/assets/images/EcoBottle/EB_ct2.svg`}
-          />
-        </div>
         <div>
           <div
-            id="page3"
+            id="page2"
             className="page"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "/assets/images/EcoBottle/EB_bg3.svg"
+                process.env.PUBLIC_URL + "/assets/images/EcoBottle/EB_bg2.svg"
               })`,
               backgroundSize: "cover",
               height: "100vh",
             }}
           >
-            <video
-              muted
-              autoPlay
-              loop
+            <img
+              className="EcoBottleSlide2"
               src={
-                process.env.PUBLIC_URL +
-                "/assets/videos/EcoBottle/PumpingMotion.mp4"
+                process.env.PUBLIC_URL + `/assets/images/EcoBottle/EB_ct2.svg`
               }
-              height={"100%"}
             />
           </div>
         </div>
