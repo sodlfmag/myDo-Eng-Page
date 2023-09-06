@@ -8,7 +8,7 @@ export const MyHeader = () => {
   console.log(window.location.pathname);
   console.log(window.location.href);
   console.log(process.env.PUBLIC_URL);
-  console(process.env.PUBLIC_URL + `/assets/logo/logo(white).svg`);
+  console.log(process.env.PUBLIC_URL + `/assets/logo/logo(white).svg`);
   return (
     <header className="MyHeader">
       <div className="HeaderContainer">
