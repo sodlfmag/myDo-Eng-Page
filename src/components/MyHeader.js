@@ -8,14 +8,14 @@ export const MyHeader = () => {
   console.log(window.location.pathname);
   console.log(window.location.href);
   console.log(process.env.PUBLIC_URL);
-  console.log(process.env.PUBLIC_URL + `/assets/logo/logo(white).svg`);
+  console.log(process.env.PUBLIC_URL + `/logo(white).svg`);
   return (
     <header className="MyHeader">
       <div className="HeaderContainer">
         <NavLink to={"/main"}>
           <img
             className="HeaderLogo"
-            src={process.env.PUBLIC_URL + "/assets/images/Header_Logo.svg"}
+            src={process.env.PUBLIC_URL + "/Header_Logo.svg"}
           />
         </NavLink>
         <div className="LinkContainer">
@@ -42,10 +42,7 @@ export const MyHeader = () => {
           <img
             className="PanelToggle"
             onClick={() => setOpenPanel(true)}
-            src={
-              process.env.PUBLIC_URL +
-              "/assets/images/Panel/Panel_Toggle_White.svg"
-            }
+            src={process.env.PUBLIC_URL + "/Panel_Toggle_White.svg"}
           />
 
           <SlidingPanel type={"right"} isOpen={openPanel} size={100}>
@@ -53,18 +50,13 @@ export const MyHeader = () => {
               <div>
                 <img
                   className="PanelBackgroundImg"
-                  src={
-                    process.env.PUBLIC_URL + "/assets/images/Panel/Panel_Bg.svg"
-                  }
+                  src={process.env.PUBLIC_URL + "/Panel_Bg.svg"}
                 />
               </div>
               <img
                 className="PanelToggle"
                 onClick={() => setOpenPanel(false)}
-                src={
-                  process.env.PUBLIC_URL +
-                  "/assets/images/Panel/Panel_X_Black.svg"
-                }
+                src={process.env.PUBLIC_URL + "/Panel_X_Black.svg"}
               />
               <Link className="PanelLink" to="/brand" style={{ top: "15vh" }}>
                 BRAND

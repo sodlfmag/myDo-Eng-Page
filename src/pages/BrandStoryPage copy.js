@@ -7,11 +7,11 @@ export const BrandStoryPage = () => {
     <div className="BrandStoryPageContainer">
       <img
         className="PageSlide"
-        src={process.env.PUBLIC_URL + `/assets/images/Brand-Story_1.svg`}
+        src={process.env.PUBLIC_URL + `/Brand-Story_1.svg`}
       />
       <img
         className="PageSlide"
-        src={process.env.PUBLIC_URL + `/assets/images/Brand-Story_2.svg`}
+        src={process.env.PUBLIC_URL + `/Brand-Story_2.svg`}
       />
       <div className="MainHeader">
         <PageHeader name="BRAND STORY" />

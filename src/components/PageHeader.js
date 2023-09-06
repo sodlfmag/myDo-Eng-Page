@@ -9,7 +9,7 @@ export const PageHeader = (props) => {
         <NavLink to={"/main"}>
           <img
             className="HeaderLogo"
-            src={process.env.PUBLIC_URL + `/assets/images/Black_Logo.svg`}
+            src={process.env.PUBLIC_URL + `/Black_Logo.svg`}
           />
         </NavLink>
         <div className="HeaderName">{props.name}</div>
@@ -17,10 +17,7 @@ export const PageHeader = (props) => {
         <img
           className="PanelToggle"
           onClick={() => setOpenPanel(true)}
-          src={
-            process.env.PUBLIC_URL +
-            "/assets/images/Panel/Panel_Toggle_Black.svg"
-          }
+          src={process.env.PUBLIC_URL + "/Panel_Toggle_Black.svg"}
         />
 
         <SlidingPanel type={"right"} isOpen={openPanel} size={100}>
@@ -28,18 +25,13 @@ export const PageHeader = (props) => {
             <div style={{ height: "100vh" }}>
               <img
                 className="PanelBackgroundImg"
-                src={
-                  process.env.PUBLIC_URL + "/assets/images/Panel/Panel_Bg.svg"
-                }
+                src={process.env.PUBLIC_URL + "/Panel_Bg.svg"}
               />
             </div>
             <img
               className="PanelToggle"
               onClick={() => setOpenPanel(false)}
-              src={
-                process.env.PUBLIC_URL +
-                "/assets/images/Panel/Panel_X_Black.svg"
-              }
+              src={process.env.PUBLIC_URL + "/Panel_X_Black.svg"}
             />
           </div>
 

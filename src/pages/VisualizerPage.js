@@ -19,7 +19,7 @@ export const VisualizerPage = () => {
           autoPlay
           loop
           muted
-          src={process.env.PUBLIC_URL + `/assets/videos/NeonMotionx3.mp4`}
+          src={process.env.PUBLIC_URL + `/NeonMotionx3.mp4`}
         />
       </>
       <Link to="/main" style={{ textDecoration: "none" }}>
@@ -32,7 +32,7 @@ export const VisualizerPage = () => {
           className="TypoMotion"
           autoPlay
           muted
-          src={process.env.PUBLIC_URL + `/assets/videos/TypoMotionx2.mp4`}
+          src={process.env.PUBLIC_URL + `/TypoMotionx2.mp4`}
         />
       </>
     </div>

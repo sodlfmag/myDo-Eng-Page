@@ -13,9 +13,7 @@ export const EcobottlePage = () => {
           id="page1"
           className="page"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "/assets/images/EcoBottle/EB_bg3.svg"
-            })`,
+            backgroundImage: `url(${process.env.PUBLIC_URL + "/EB_bg3.svg"})`,
             backgroundSize: "cover",
             height: "100vh",
           }}
@@ -24,10 +22,7 @@ export const EcobottlePage = () => {
             muted
             autoPlay
             loop
-            src={
-              process.env.PUBLIC_URL +
-              "/assets/videos/EcoBottle/PumpingMotion.webm"
-            }
+            src={process.env.PUBLIC_URL + "/PumpingMotion.webm"}
             height={"100%"}
           />
         </div>
@@ -35,16 +30,14 @@ export const EcobottlePage = () => {
           id="page3"
           className="page"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "/assets/images/EcoBottle/EB_bg1.svg"
-            })`,
+            backgroundImage: `url(${process.env.PUBLIC_URL + "/EB_bg1.svg"})`,
             backgroundSize: "cover",
             height: "100vh",
           }}
         >
           <img
             className="EcoBottleSlide"
-            src={process.env.PUBLIC_URL + `/assets/images/EcoBottle/EB_ct1.svg`}
+            src={process.env.PUBLIC_URL + `/EB_ct1.svg`}
           />
         </div>
         <div>
@@ -52,18 +45,14 @@ export const EcobottlePage = () => {
             id="page2"
             className="page"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "/assets/images/EcoBottle/EB_bg2.svg"
-              })`,
+              backgroundImage: `url(${process.env.PUBLIC_URL + "/EB_bg2.svg"})`,
               backgroundSize: "cover",
               height: "100vh",
             }}
           >
             <img
               className="EcoBottleSlide2"
-              src={
-                process.env.PUBLIC_URL + `/assets/images/EcoBottle/EB_ct2.svg`
-              }
+              src={process.env.PUBLIC_URL + `/EB_ct2.svg`}
             />
           </div>
         </div>

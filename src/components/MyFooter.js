@@ -7,20 +7,20 @@ export const MyFooter = () => {
       <div className="FooterImageLine">
         <img
           className="FooterImage"
-          src={process.env.PUBLIC_URL + `/assets/images/Black_Logo.svg`}
+          src={process.env.PUBLIC_URL + `/Black_Logo.svg`}
           style={{ marginLeft: "2%" }}
         />
         <Link to="https://www.instagram.com/mydo_midas/">
           <img
             className="FooterImage"
-            src={process.env.PUBLIC_URL + `/assets/images/Instagram_Icon.svg`}
+            src={process.env.PUBLIC_URL + `/Instagram_Icon.svg`}
             style={{ marginLeft: "75%" }}
           />
         </Link>
         <Link to="https://www.facebook.com/MYDO.lab">
           <img
             className="FooterImage"
-            src={process.env.PUBLIC_URL + `/assets/images/Facebook_Icon.svg`}
+            src={process.env.PUBLIC_URL + `/Facebook_Icon.svg`}
             style={{ marginLeft: "1%" }}
           />
         </Link>

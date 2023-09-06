@@ -137,18 +137,14 @@ export const ContactPage = () => {
         muted
         autoPlay
         loop
-        src={
-          process.env.PUBLIC_URL + `/assets/videos/contact/ContactOrbitBg.webm`
-        }
+        src={process.env.PUBLIC_URL + `/ContactOrbitBg.webm`}
       />
       <video
         className="ContactMotionCloud"
         muted
         autoPlay
         loop
-        src={
-          process.env.PUBLIC_URL + `/assets/videos/contact/ContactCloudBg.webm`
-        }
+        src={process.env.PUBLIC_URL + `/ContactCloudBg.webm`}
       />
       <MyFooter />
     </>

@@ -13,36 +13,28 @@ export const BrandStoryPage = () => {
           id="page1"
           className="page"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "/assets/images/BrandStory/BS_bg1.svg"
-            })`,
+            backgroundImage: `url(${process.env.PUBLIC_URL + "/BS_bg1.svg"})`,
             backgroundSize: "cover",
             height: "100vh",
           }}
         >
           <img
             className="BrandPageSlide"
-            src={
-              process.env.PUBLIC_URL + `/assets/images/BrandStory/BS_ct1.svg`
-            }
+            src={process.env.PUBLIC_URL + `/BS_ct1.svg`}
           />
         </div>
         <div
           id="page2"
           className="page"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "/assets/images/BrandStory/BS_bg2.svg"
-            })`,
+            backgroundImage: `url(${process.env.PUBLIC_URL + "/BS_bg2.svg"})`,
             backgroundSize: "cover",
             height: "100vh",
           }}
         >
           <img
             className="BrandPageSlide"
-            src={
-              process.env.PUBLIC_URL + `/assets/images/BrandStory/BS_ct2.svg`
-            }
+            src={process.env.PUBLIC_URL + `/BS_ct2.svg`}
           />
         </div>
         <div>
@@ -50,18 +42,14 @@ export const BrandStoryPage = () => {
             id="page3"
             className="page"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "/assets/images/BrandStory/BS_bg3.svg"
-              })`,
+              backgroundImage: `url(${process.env.PUBLIC_URL + "/BS_bg3.svg"})`,
               backgroundSize: "cover",
               height: "100vh",
             }}
           >
             <img
               className="BrandPageSlide2"
-              src={
-                process.env.PUBLIC_URL + `/assets/images/BrandStory/BS_ct03.svg`
-              }
+              src={process.env.PUBLIC_URL + `/BS_ct03.svg`}
             />
           </div>
         </div>
