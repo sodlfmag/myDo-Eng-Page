@@ -11,7 +11,7 @@ export const MyHeader = () => {
         <NavLink to={"/main"}>
           <img
             className="HeaderLogo"
-            src={process.env.PUBLIC_URL + `/assets/images/Header_Logo.svg`}
+            src={process.env.PUBLIC_URL + "/assets/images/Header_Logo.svg"}
           />
         </NavLink>
         <div className="LinkContainer">
