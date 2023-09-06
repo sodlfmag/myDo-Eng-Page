@@ -5,6 +5,10 @@ import "react-sliding-side-panel/lib/index.css";
 
 export const MyHeader = () => {
   const [openPanel, setOpenPanel] = useState(false);
+  console.log(window.location.pathname);
+  console.log(window.location.href);
+  console.log(process.env.PUBLIC_URL);
+  console(process.env.PUBLIC_URL + `/assets/logo/logo(white).svg`);
   return (
     <header className="MyHeader">
       <div className="HeaderContainer">
