@@ -121,7 +121,7 @@ export const MyHeader = () => {
           <img
             className="MobilePanelToggle"
             onClick={() => setOpenPanel(true)}
-            src={process.env.PUBLIC_URL + "/Panel_Toggle_Black.svg"}
+            src={process.env.PUBLIC_URL + "/Panel_Toggle_White.svg"}
           />
           <SlidingPanel type={"right"} isOpen={openPanel} size={100}>
             <div>
