@@ -209,6 +209,28 @@ body {
   text-shadow: 2px 2px 20px rgb(51, 51, 51);
 }
 
+.MobileMainText_1 {
+  position: absolute;
+  color: #00d1ff;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, 0%);
+  font-size: 5vh;
+
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 15px rgb(51, 51, 51);
+}
+.MobileMainText_2 {
+  position: absolute;
+  color: white;
+  top: 57vh;
+  left: 50vw;
+  transform: translate(-50%, 0%);
+  font-size: 5vh;
+
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 15px rgb(51, 51, 51);
+}
 /* BrandStoryPage.js */
 
 .BrandPageSlide {
