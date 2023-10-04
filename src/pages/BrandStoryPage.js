@@ -69,6 +69,9 @@ export const BrandStoryPage = () => {
         </PageScroll>
       </BrowserView>
       <MobileView>
+        <div>
+          <PageHeader name="BRAND STORY" />
+        </div>
         <PageScroll width="100vw" height="100vh">
           <img src={process.env.PUBLIC_URL + `/M_BS1.svg`} />
           <img src={process.env.PUBLIC_URL + `/M_BS2.svg`} />
