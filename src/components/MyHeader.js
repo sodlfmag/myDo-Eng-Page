@@ -127,7 +127,7 @@ export const MyHeader = () => {
             <div>
               <div style={{ height: "100vh" }}>
                 <img
-                  className="PanelBackgroundImg"
+                  className="MobilePanelBackgroundImg"
                   src={process.env.PUBLIC_URL + "/M_Panel_Bg.svg"}
                 />
               </div>
