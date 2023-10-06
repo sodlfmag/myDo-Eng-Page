@@ -8,6 +8,9 @@ body {
   overflow-x: hidden;
 }
 
+:root {
+  color-scheme: light only;
+}
 /* App.js */
 .App {
   font-family: "Marcellus", serif;
