@@ -48,6 +48,10 @@ body {
   font-size: 1.2vw;
 }
 .PanelBackgroundImg {
+  width: 40vw;
+  position: fixed;
+}
+.MobilePanelBackgroundImg {
   width: 100vw;
   position: fixed;
 }
@@ -240,6 +244,9 @@ body {
 .BrandPageSlide2 {
   margin-top: 10vh;
   height: 80vh;
+}
+.MobileBSImg {
+  height: 100vh;
 }
 
 /* EcobottlePage.js */
