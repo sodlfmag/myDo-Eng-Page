@@ -3,6 +3,7 @@ import { MyFooter } from "../components/MyFooter";
 import { PageHeader } from "../components/PageHeader";
 import emailjs from "emailjs-com";
 import { Button } from "@mui/material";
+import { BrowserView, MobileView } from "react-device-detect";
 
 export const ContactPage = () => {
   const [formValues, setFormValues] = useState({
@@ -55,75 +56,76 @@ export const ContactPage = () => {
           src={process.env.PUBLIC_URL + `/assets/videos/ContactOrbit.webm`}
         />
       </video> */}
-      <div>
-        <PageHeader name="CONTACT" />
-      </div>
-      <form className="ContactForm" onSubmit={handleSubmit}>
-        <div className="ContactPageContainer">
-          <div className="ContactContentsContainer">
-            <div className="ContactPageTitle">CONTACT</div>
-          </div>
-          <div className="ContactRow">
-            <label htmlFor="name" className="ContactIndex">
-              Client Email
-            </label>
-            <input
-              className="RequestInput"
-              type="email"
-              id="email_address"
-              name="email_address"
-              value={formValues.email_address}
-              onChange={handleInputChange}
-              placeholder="Please enter your email."
-            />
-          </div>
-          <div className="ContactRow">
-            <label htmlFor="title" className="ContactIndex">
-              Title
-            </label>
-            <input
-              className="RequestInput"
-              type="text"
-              id="title"
-              name="title"
-              value={formValues.title}
-              onChange={handleInputChange}
-              placeholder="Please enter the title."
-            />
-          </div>
-          <div>
-            <label htmlFor="contents" className="ContactIndex">
-              Content
-            </label>
-            <textarea
-              className="RequestInput RequestInput_Contents"
-              type="text"
-              id="contents"
-              name="contents"
-              value={formValues.contents}
-              onChange={handleInputChange}
-              placeholder="Please enter the contents."
-            />
-          </div>
-          <div className="SubmitBtn">
-            <Button
-              sx={{
-                maxHeight: "4vh",
-                height: "4vh",
-                width: "4vw",
-                fontSize: "2vh",
-              }}
-              variant="outlined"
-              color="primary"
-              type="submit"
-            >
-              Submit
-            </Button>
-          </div>
+      <BrowserView>
+        <div>
+          <PageHeader name="CONTACT" />
         </div>
-      </form>
+        <form className="ContactForm" onSubmit={handleSubmit}>
+          <div className="ContactPageContainer">
+            <div className="ContactContentsContainer">
+              <div className="ContactPageTitle">CONTACT</div>
+            </div>
+            <div className="ContactRow">
+              <label htmlFor="name" className="ContactIndex">
+                Client Email
+              </label>
+              <input
+                className="RequestInput"
+                type="email"
+                id="email_address"
+                name="email_address"
+                value={formValues.email_address}
+                onChange={handleInputChange}
+                placeholder="Please enter your email."
+              />
+            </div>
+            <div className="ContactRow">
+              <label htmlFor="title" className="ContactIndex">
+                Title
+              </label>
+              <input
+                className="RequestInput"
+                type="text"
+                id="title"
+                name="title"
+                value={formValues.title}
+                onChange={handleInputChange}
+                placeholder="Please enter the title."
+              />
+            </div>
+            <div>
+              <label htmlFor="contents" className="ContactIndex">
+                Content
+              </label>
+              <textarea
+                className="RequestInput RequestInput_Contents"
+                type="text"
+                id="contents"
+                name="contents"
+                value={formValues.contents}
+                onChange={handleInputChange}
+                placeholder="Please enter the contents."
+              />
+            </div>
+            <div className="SubmitBtn">
+              <Button
+                sx={{
+                  maxHeight: "4vh",
+                  height: "4vh",
+                  width: "4vw",
+                  fontSize: "2vh",
+                }}
+                variant="outlined"
+                color="primary"
+                type="submit"
+              >
+                Submit
+              </Button>
+            </div>
+          </div>
+        </form>
 
-      {/* <video
+        {/* <video
         muted
         autoPlay
         loop
@@ -132,21 +134,117 @@ export const ContactPage = () => {
           `/assets/videos/contact/ContactMotionsBg.webm`
         }
       /> */}
-      <video
-        className="ContactMotionOrbit"
+        <video
+          className="ContactMotionOrbit"
+          muted
+          autoPlay
+          loop
+          src={process.env.PUBLIC_URL + `/ContactOrbitBg.webm`}
+        />
+        <video
+          className="ContactMotionCloud"
+          muted
+          autoPlay
+          loop
+          src={process.env.PUBLIC_URL + `/ContactCloudBg.webm`}
+        />
+        <MyFooter />
+      </BrowserView>
+      <MobileView>
+        <div>
+          <PageHeader name="CONTACT" />
+        </div>
+        <form className="ContactForm" onSubmit={handleSubmit}>
+          <div className="MobileContactPageContainer">
+            <div className="ContactContentsContainer">
+              <div className="MobileContactPageTitle">CONTACT</div>
+            </div>
+            <video
+              className="MobileContactMotionOrbit"
+              muted
+              autoPlay
+              loop
+              src={process.env.PUBLIC_URL + `/ContactOrbitBg.webm`}
+            />
+            <video
+              className="MobileContactMotionCloud"
+              muted
+              autoPlay
+              loop
+              src={process.env.PUBLIC_URL + `/ContactCloudBg.webm`}
+            />
+            <div className="MobileContactRow">
+              <div htmlFor="name" className="MobileContactIndex">
+                Client Email
+              </div>
+              <input
+                className="MobileRequestInput"
+                type="email"
+                id="email_address"
+                name="email_address"
+                value={formValues.email_address}
+                onChange={handleInputChange}
+                placeholder="Please enter your email."
+              />
+            </div>
+            <div className="MobileContactRow">
+              <div htmlFor="title" className="MobileContactIndex">
+                Title
+              </div>
+              <input
+                className="MobileRequestInput"
+                type="text"
+                id="title"
+                name="title"
+                value={formValues.title}
+                onChange={handleInputChange}
+                placeholder="Please enter the title."
+              />
+            </div>
+            <div>
+              <div htmlFor="contents" className="MobileContactIndex">
+                Content
+              </div>
+              <textarea
+                className="MobileRequestInput MobileRequestInput_Contents"
+                type="text"
+                id="contents"
+                name="contents"
+                value={formValues.contents}
+                onChange={handleInputChange}
+                placeholder="Please enter the contents."
+              />
+            </div>
+            <div className="MobileSubmitBtn">
+              <Button
+                sx={{
+                  maxHeight: "4vh",
+                  height: "4vh",
+                  width: "4vw",
+                  fontSize: "1.5vh",
+                }}
+                variant="outlined"
+                color="primary"
+                type="submit"
+              >
+                Submit
+              </Button>
+            </div>
+          </div>
+        </form>
+
+        {/* <video
         muted
         autoPlay
         loop
-        src={process.env.PUBLIC_URL + `/ContactOrbitBg.webm`}
-      />
-      <video
-        className="ContactMotionCloud"
-        muted
-        autoPlay
-        loop
-        src={process.env.PUBLIC_URL + `/ContactCloudBg.webm`}
-      />
-      <MyFooter />
+        src={
+          process.env.PUBLIC_URL +
+          `/assets/videos/contact/ContactMotionsBg.webm`
+        }
+      /> */}
+
+        <MyFooter />
+      </MobileView>
     </>
   );
 };

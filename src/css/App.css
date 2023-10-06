@@ -57,7 +57,7 @@ body {
 }
 .PanelToggle {
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   height: 7vh;
   bottom: 2vh;
   right: 3vw;
@@ -66,7 +66,7 @@ body {
 }
 .MobilePanelToggle {
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   height: 4vh;
   right: 3vw;
   top: 1.3vh;
@@ -355,6 +355,68 @@ body {
   width: 25vw;
 }
 
+.MobileRequestInput {
+  margin-left: 10vw;
+  font-family: "Marcellus", serif;
+  height: 4vh;
+  width: 80vw;
+  position: relative;
+  z-index: 3;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.MobileRequestInput_Contents {
+  height: 30vh;
+  resize: none;
+  font-family: "Marcellus", serif;
+  z-index: 3;
+  position: relative;
+  border-radius: 10px;
+}
+.MobileContactPageContainer {
+  z-index: 2;
+  width: 100vw;
+  /* background-color: #ffffff; */
+}
+.MobileSubmitBtn {
+  right: 10vw;
+
+  position: absolute;
+}
+.MobileContactRow {
+  /* display: flex; */
+}
+.MobileContactIndex {
+  margin-left: 10vw;
+  margin-bottom: 1vh;
+  margin-top: 3vh;
+  position: relative;
+  z-index: 3;
+}
+.MobileContactPageTitle {
+  padding-top: 10vh;
+  padding-bottom: 2vh;
+  text-align: center;
+  font-size: 3.2vh;
+  color: #00a8d6;
+  position: relative;
+  z-index: 3;
+}
+.MobileContactMotionOrbit {
+  height: 10vh;
+  top: 8vh;
+  z-index: 1;
+  position: absolute;
+}
+
+.MobileContactMotionCloud {
+  position: absolute;
+  z-index: 1;
+  top: 10vh;
+  right: 0;
+  width: 70vw;
+}
 /* 스크롤바 커스텀 */
 
 /* 스크롤바의 폭 너비 */

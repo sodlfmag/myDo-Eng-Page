@@ -1,13 +1,4 @@
 import { PageHeader } from "../components/PageHeader";
-import { MyFooter } from "../components/MyFooter";
-import PageScroll from "react-page-scroll";
-import {
-  BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile,
-} from "react-device-detect";
-
 export const BrandStoryPage = () => {
   return (
     <>
