@@ -116,7 +116,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   /* backdrop-filter: saturate(100%) blur(30px); */
-  z-index: 3;
+  z-index: 5;
 }
 
 .MobileHeaderLogo {
