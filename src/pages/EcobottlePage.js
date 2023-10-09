@@ -43,7 +43,7 @@ export const EcobottlePage = () => {
             }}
           >
             <img
-              className="EcoBottleSlide"
+              className="MobileEcoBottleSlide"
               src={process.env.PUBLIC_URL + `/EB_ct1.svg`}
             />
           </div>
@@ -60,7 +60,7 @@ export const EcobottlePage = () => {
               }}
             >
               <img
-                className="EcoBottleSlide2"
+                className="MobileEcoBottleSlide"
                 src={process.env.PUBLIC_URL + `/EB_ct2.svg`}
               />
             </div>

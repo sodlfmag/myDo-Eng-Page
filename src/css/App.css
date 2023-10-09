@@ -299,6 +299,10 @@ body {
 .page {
   text-align: center;
 }
+.MobileEcoBottleSlide {
+  margin-top: 5vh;
+  height: 80vh;
+}
 
 /* MyFooter.js*/
 .MyFooter {
