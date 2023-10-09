@@ -49,7 +49,38 @@ export const VisualizerPage = () => {
           </>
         </div>
       </BrowserView>
-      <MobileView></MobileView>
+      <MobileView>
+        <div className="MobileVisualizerContainer">
+          <div className="MobileMotion">
+            <video
+              className="MobileNeonMotion"
+              autoPlay
+              loop
+              muted
+              src={process.env.PUBLIC_URL + `/NeonMotionx3.mp4`}
+            />
+          </div>
+          <div className="MobileMainBtnContainer">
+            <Link to="/main" style={{ textDecoration: "none" }}>
+              <Button
+                className="puff-in-center"
+                variant="contained"
+                color="primary"
+              >
+                Go To Main
+              </Button>
+            </Link>
+          </div>
+          <>
+            <video
+              className="MobileTypoMotion"
+              autoPlay
+              muted
+              src={process.env.PUBLIC_URL + `/TypoMotionx2.mp4`}
+            />
+          </>
+        </div>
+      </MobileView>
     </>
   );
 };
