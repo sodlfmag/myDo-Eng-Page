@@ -85,7 +85,7 @@ export const BrandStoryPage = () => {
             }}
           >
             <img
-              className="BrandPageSlide"
+              className="MobileBrandPageSlide"
               src={process.env.PUBLIC_URL + `/M_BS_ct1.svg`}
             />
           </div>
@@ -101,7 +101,7 @@ export const BrandStoryPage = () => {
             }}
           >
             <img
-              className="BrandPageSlide"
+              className="MobileBrandPageSlide"
               src={process.env.PUBLIC_URL + `/M_BS_ct2.svg`}
             />
           </div>
@@ -118,7 +118,7 @@ export const BrandStoryPage = () => {
               }}
             >
               <img
-                className="BrandPageSlide"
+                className="MobileBrandPageSlide"
                 src={process.env.PUBLIC_URL + `/M_BS_ct3.svg`}
               />
             </div>
@@ -136,7 +136,7 @@ export const BrandStoryPage = () => {
               }}
             >
               <img
-                className="BrandPageSlide"
+                className="MobileBrandPageSlide"
                 src={process.env.PUBLIC_URL + `/M_BS_ct4.svg`}
               />
             </div>
@@ -154,7 +154,7 @@ export const BrandStoryPage = () => {
               }}
             >
               <img
-                className="BrandPageSlide"
+                className="MobileBrandPageSlide"
                 src={process.env.PUBLIC_URL + `/M_BS_ct5.svg`}
               />
             </div>
