@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/" element={<VisualizerPage />} />
+          <Route path="/" element={<MainPage />} />
           <Route path="/main" element={<MainPage />} />
           <Route path="/brand" element={<BrandStoryPage />} />
           <Route path="/ecobottle" element={<EcobottlePage />} />
